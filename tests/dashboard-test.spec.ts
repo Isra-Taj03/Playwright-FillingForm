@@ -3,6 +3,7 @@ import {expect} from "@playwright/test";
 
 test("Testing Dashboard",async({page, dashboard})=>{
     console.log("Testing App........");
+     console.log("O[eing App........");
     await dashboard.gotoApp();
     // await dashboard.takeATour();
     // await expect(dashboard.Next).toBeVisible();
